@@ -412,6 +412,26 @@
      "file": "/data/node_modules/node-red-node-serialport/25-serial.js"
     }
    }
+  },
+  "node-red-contrib-influxdb": {
+   "name": "node-red-contrib-influxdb",
+   "version": "0.4.1",
+   "local": false,
+   "nodes": {
+    "influxdb": {
+     "name": "influxdb",
+     "types": [
+      "influxdb",
+      "influxdb out",
+      "influxdb batch",
+      "influxdb in"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "node-red-contrib-influxdb",
+     "file": "/data/node_modules/node-red-contrib-influxdb/influxdb.js"
+    }
+   }
   }
  },
  "_credentialSecret": "322e414a60d0eb07036891752fa369ec375ff687384b863367f03d59320c1b11",
